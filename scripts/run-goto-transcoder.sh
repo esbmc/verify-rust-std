@@ -9,7 +9,7 @@ contract_folder=$1/kani_verify_std/target/x86_64-unknown-linux-gnu/debug/deps
 supported_regex=$2
 unsupported_regex=neg
 
-goto_transcoder_git=https://github.com/rafaelsamenezes/goto-transcoder
+goto_transcoder_git=https://github.com/esbmc/goto-transcoder
 esbmc_url=https://github.com/esbmc/esbmc/releases/download/nightly-7867f5e5595b9e181cd36eb9155d1905f87ad241/esbmc-linux.zip
 
 ##########
